@@ -1,4 +1,4 @@
-rootProject.name = "csx"
+rootProject.name = "CSX"
 
 include(
     "CodeStream",
