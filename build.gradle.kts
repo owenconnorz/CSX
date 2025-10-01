@@ -76,7 +76,7 @@ subprojects {
 
         setRepository("https://github.com/owenconnorz/CSX")
 
-        id = "abrogani-$projectName"
+        id = "owenconnorz $projectName"
     }
 
     android {
