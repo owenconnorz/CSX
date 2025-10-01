@@ -67,20 +67,20 @@ subprojects {
          * own github profile link
          * */
         author(
-            name = "abrogani",
-            socialLink = "https://github.com/abrogani",
-            image = "https://github.com/abrogani.png"
+            name = "owenconnorz",
+            socialLink = "https://github.com/owenconnorz",
+            image = "https://github.com/owenconnorz"
         )
         // author( ... )
         // author( ... )
 
-        setRepository("https://github.com/abrogani/automatic-sniffle")
+        setRepository("https://github.com/owenconnorz/CSX")
 
         id = "abrogani-$projectName"
     }
 
     android {
-        namespace = "com.abrogani.$projectName"
+        namespace = "com.owenconnorz.$projectName"
     }
 
     dependencies {
@@ -161,7 +161,7 @@ tasks.register("getCSJar") {
         logger.lifecycle("Fetching Cloudstream JAR")
 
         val tag = "pre-release"
-        val apkDownloadUrl = URL("https://github.com/abrogani/cloudstream/releases/download/$tag/classes.jar")
+        val apkDownloadUrl = URL("https://github.com/owenconnorz/cloudstream/releases/download/$tag/classes.jar")
 
         if (!csJarFolder.exists()) {
             csJarFolder.mkdirs()
