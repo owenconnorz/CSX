@@ -1,4 +1,4 @@
-rootProject.name = "automatic-sniffler"
+rootProject.name = "csx"
 
 include(
     "CodeStream",
